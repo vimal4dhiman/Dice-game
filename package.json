@@ -7,16 +7,8 @@
         "start": "parcel HomePage.html",
         "build": "parcel build HomePage.html --dist-dir ./dist"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/vimal4dhiman/06-Shades-of-Dice-Game-.git"
-    },
     "author": "Vimal",
     "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/vimal4dhiman/06-Shades-of-Dice-Game-/issues"
-    },
-    "homepage": "https://github.com/vimal4dhiman/06-Shades-of-Dice-Game-#readme",
     "devDependencies": {
         "parcel": "^2.0.0-beta.2"
     }
