@@ -1,0 +1,23 @@
+{
+    "name": "dice-game",
+    "version": "1.0.0",
+    "description": "Welcome!\r This is a simple 2 player dice game, they will compete to reach 100, first one to reach 100 wins.\r -------GAME FUNCTIONALITY IS EXPLAINED BELOW-------\r There will be two players in this game starting from 0 score each.\r 1. It's Player 1's turn:\r 2) His current score will be added with the no. of dots on 'DICE' when clicked on 'ROLL DICE'.\r 3) If 'DICE' gives '1' then the current score will be cleared and then Player 2's turn will come.\r 4) If he don't want his score to be cleared he can save it by clicking 'HOLD' and his total score\r    will be increased to the current score. After clicking on 'HOLD' turn will be changed.\r 5) Same goes for another player.\r 6) The first one to reach 100 will win and his side will change to black.\r 7) To reset the game click on 'NEW GAME', all scores will be reset",
+    "default": "HomePage.html",
+    "scripts": {
+        "start": "parcel HomePage.html",
+        "build": "parcel build HomePage.html --dist-dir ./dist"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vimal4dhiman/06-Shades-of-Dice-Game-.git"
+    },
+    "author": "Vimal",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/vimal4dhiman/06-Shades-of-Dice-Game-/issues"
+    },
+    "homepage": "https://github.com/vimal4dhiman/06-Shades-of-Dice-Game-#readme",
+    "devDependencies": {
+        "parcel": "^2.0.0-beta.2"
+    }
+}
